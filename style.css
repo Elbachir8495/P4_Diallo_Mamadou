@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 40px ;
 }
 
 .bloc-md {
@@ -317,15 +317,21 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+   margin-right: 100px;
     float: right;
     z-index: 1;
+   
 }
 
 .nav > li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    padding: 30px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -768,10 +774,6 @@ h4 {
 
 .bgc-dark-slate-blue {
     background-color: #364577;
-}
-
-.bgc-atomic-tangerine {
-    background-color: #F3976C;
 }
 
 .tc-white {
