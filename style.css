@@ -26,6 +26,14 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+.banniere_contact{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background: gainsboro;
+    height: 250px;
+}
 
 .bloc {
     width: 100%;
@@ -677,7 +685,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
