@@ -344,7 +344,6 @@ form {
     float: left;
     margin-top: 4px;
     font-size: 16px;
-   
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -496,7 +495,6 @@ button {
 
 .icon-md {
     font-size: 30px!important;
-    
 }
 
 .icon-lg {
@@ -721,14 +719,9 @@ p {
 }
 
 .social {
-    color: white !important;
     max-width: 400px;
     margin: auto;
     
-}
-.social a{
-    color: white !important;
-    padding-left: 10px;
 }
 
 h2 {
@@ -797,10 +790,10 @@ h4 {
     background-color: #364577;
 }
 
-
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
+
 .tc-white {
     color: #F3976C!important;
 }
