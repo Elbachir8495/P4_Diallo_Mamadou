@@ -31,8 +31,18 @@ a:hover {
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    background: gainsboro;
+    background: url("img/agence-la-panthere.jpg");
     height: 250px;
+}
+form {
+
+    border: 1px solid black;
+    
+    border-radius: 10px/10px;
+    text-align: center;
+}
+.form-group{
+    margin: 10px;
 }
 
 .bloc {
@@ -334,6 +344,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+   
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -485,6 +496,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    
 }
 
 .icon-lg {
@@ -664,6 +676,7 @@ a {
 
 .container {
     max-width: 1000px;
+    max-height: 1400px;
 }
 
 .hero-bloc-text {
@@ -708,8 +721,14 @@ p {
 }
 
 .social {
+    color: white !important;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    
+}
+.social a{
+    color: white !important;
+    padding-left: 10px;
 }
 
 h2 {
@@ -778,10 +797,10 @@ h4 {
     background-color: #364577;
 }
 
+
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
 .tc-white {
     color: #F3976C!important;
 }
@@ -833,6 +852,7 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -846,7 +866,6 @@ h4 {
         padding-right: 0;
     }
 }
-
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
@@ -897,11 +916,14 @@ h4 {
     }
 }
 
+
+
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
     }
+   
     h1,
     h2,
     h3,
@@ -1019,8 +1041,19 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+       
+        border: 1px solid black;
+        margin: 10px;
+        border-radius: 10px/10px;
+        
     }
+    .form-group{
+        margin: 10px;
+        padding: 3px;
+    }
+ 
+    
+   
     .close-lightbox {
         display: inline-block;
     }
@@ -1046,5 +1079,6 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+        
     }
 }
