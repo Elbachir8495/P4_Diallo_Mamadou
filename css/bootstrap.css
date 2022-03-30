@@ -1656,6 +1656,9 @@ mark {
 .text-right {
     text-align: right
 }
+.social{
+    text-align: center;
+}
 
 .text-center {
     text-align: center
