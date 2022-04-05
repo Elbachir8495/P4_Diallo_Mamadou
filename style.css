@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: white!important;
 }
 
 .container {
@@ -702,6 +702,7 @@ p {
 .social {
     
     margin: auto ;
+    
 }
 
 h2 {
